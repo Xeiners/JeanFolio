@@ -314,6 +314,31 @@ footer {
 
 /* Media Query*/
 
+@media screen and (max-width: 1600px) {
+
+    .ImgHome img {
+        top: 100px;
+        bottom: 70px;
+    }
+
+    .content {
+        max-width: 500px;
+    }
+
+    .content h3 {
+        font-size: 28px;
+    }
+
+    .content h1 {
+        font-size: 48px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+}
+
 @media screen and (max-width: 1200px) {
 
     .ImgHome img {
@@ -446,7 +471,8 @@ footer {
     }
 
     .ImgHome img {
-        margin-top: 100px;
+        margin-top: 0px;
+        top: 0px;
         margin-left: 40px;
         position: relative;
         display: block;
@@ -469,6 +495,7 @@ footer {
 
 @media screen and (max-width: 586px ) {
 
+
     .content h3 {
         font-size: 27px;
     }
@@ -477,6 +504,15 @@ footer {
         font-size: 60px;
     }
     
+    .ImgHome img {
+        margin-top: 0px;
+        margin-bottom: 100px;
+        top: 0px;
+    }
+
+    .home {
+        gap: 0px;
+    }
 
 }
 
@@ -503,7 +539,9 @@ footer {
     }
 
     .ImgHome img {
-        margin-top: 30vh;
+        margin-top: 0px;
+        margin-bottom: 100px;
+        top: 0px;
     }
 
     .home {
